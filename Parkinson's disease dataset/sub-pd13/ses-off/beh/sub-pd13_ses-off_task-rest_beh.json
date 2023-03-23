@@ -1,0 +1,30 @@
+{
+    "meds": {
+        "Lev": {
+            "Dose (mg)": "25/100",
+            "hours since meds": "13.5",
+            "times/day": "3"
+        },
+        "Pr": {
+            "Dose (mg)": "1",
+            "hours since meds": "13.5",
+            "times/day": "1"
+        },
+        "Ras": {
+            "Dose (mg)": "1",
+            "hours since meds": "13.5",
+            "times/day": "1"
+        }
+    },
+    "questionairres": {
+        "Beck": "n/a",
+        "Brady kinesia UPDRS": 20,
+        "H&Y": 2,
+        "Left UPDRS": 19,
+        "Rest Tremor UPDRS": 2,
+        "Right UPDRS": 22,
+        "Rigidity UPDRS": 13,
+        "Total UPDRS": 49,
+        "UPDRS 18-26": 40
+    }
+}
