@@ -1,0 +1,25 @@
+{
+    "meds": {
+        "Pr": {
+            "Dose (mg)": "1.5",
+            "hours since meds": "13",
+            "times/day": "3"
+        },
+        "Sel": {
+            "Dose (mg)": "5",
+            "hours since meds": "13",
+            "times/day": "2"
+        }
+    },
+    "questionairres": {
+        "Beck": "n/a",
+        "Brady kinesia UPDRS": 10,
+        "H&Y": 2,
+        "Left UPDRS": 16,
+        "Rest Tremor UPDRS": 2,
+        "Right UPDRS": 11,
+        "Rigidity UPDRS": 10,
+        "Total UPDRS": 38,
+        "UPDRS 18-26": 32
+    }
+}
