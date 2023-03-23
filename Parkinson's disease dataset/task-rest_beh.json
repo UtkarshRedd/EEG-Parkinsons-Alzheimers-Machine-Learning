@@ -1,0 +1,5 @@
+{
+    "trial": {
+	"Description": "There are no trials, this is just a dummy column so that the necessary sidecar file can be included according to BIDS specification. This will be fixed in future versions."
+    }
+}

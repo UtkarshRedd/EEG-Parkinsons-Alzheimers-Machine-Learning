@@ -1,0 +1,2 @@
+For OFF - pd3, pd9, pd13, pd28
+For ON - pd3, pd6, pd9, pd13,pd26
