@@ -1,0 +1,40 @@
+{
+    "meds": {
+        "Ent": {
+            "Dose (mg)": "200",
+            "hours since meds": "27",
+            "times/day": "6"
+        },
+        "Lev": {
+            "Dose (mg)": "25/100",
+            "hours since meds": "16",
+            "times/day": "6"
+        },
+        "LevR": {
+            "Dose (mg)": "25/100",
+            "hours since meds": "27",
+            "times/day": "1"
+        },
+        "Ras": {
+            "Dose (mg)": "1",
+            "hours since meds": "27",
+            "times/day": "1"
+        },
+        "RopXL": {
+            "Dose (mg)": "8 & 12",
+            "hours since meds": "27",
+            "times/day": "1 & 1"
+        }
+    },
+    "questionairres": {
+        "Beck": "n/a",
+        "Brady kinesia UPDRS": 12,
+        "H&Y": 3,
+        "Left UPDRS": 16,
+        "Rest Tremor UPDRS": 3,
+        "Right UPDRS": 15,
+        "Rigidity UPDRS": 15,
+        "Total UPDRS": 47,
+        "UPDRS 18-26": 39
+    }
+}
