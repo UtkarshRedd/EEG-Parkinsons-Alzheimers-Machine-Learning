@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/utkar/Desktop/Research_Paper/EEG%20Analysis/Corollary/Parkinsons-EEG-DeepLearning/jupyter-notebooks/Alzheimer%27s/mlruns/1/28ff7b1fc3fe4351ae9849045ad1e29d/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 28ff7b1fc3fe4351ae9849045ad1e29d
+run_uuid: 28ff7b1fc3fe4351ae9849045ad1e29d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1680964556200
+status: 1
+tags: []
+user_id: utkar

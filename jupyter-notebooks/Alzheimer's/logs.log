@@ -1566,3 +1566,349 @@ joblib.externals.loky.process_executor.TerminatedWorkerError: A worker process m
 2023-04-08 19:45:42,998:INFO:Calculating mean and std
 2023-04-08 19:45:43,001:INFO:Creating metrics dataframe
 2023-04-08 19:45:43,025:INFO:Finalizing model
+2023-04-08 19:59:34,254:INFO:PyCaret Supervised Module
+2023-04-08 19:59:34,254:INFO:ML Usecase: classification
+2023-04-08 19:59:34,254:INFO:version 2.3.10
+2023-04-08 19:59:34,254:INFO:Initializing setup()
+2023-04-08 19:59:34,256:INFO:setup(target=Y, ml_usecase=classification, available_plots={'parameter': 'Hyperparameters', 'auc': 'AUC', 'confusion_matrix': 'Confusion Matrix', 'threshold': 'Threshold', 'pr': 'Precision Recall', 'error': 'Prediction Error', 'class_report': 'Class Report', 'rfe': 'Feature Selection', 'learning': 'Learning Curve', 'manifold': 'Manifold Learning', 'calibration': 'Calibration Curve', 'vc': 'Validation Curve', 'dimension': 'Dimensions', 'feature': 'Feature Importance', 'feature_all': 'Feature Importance (All)', 'boundary': 'Decision Boundary', 'lift': 'Lift Chart', 'gain': 'Gain Chart', 'tree': 'Decision Tree', 'ks': 'KS Statistic Plot'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=constant, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=False, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=True, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=True, feature_selection_threshold=0.9, feature_selection_method=boruta, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=True, data_split_stratify=False, fold_strategy=stratifiedkfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=True, experiment_name=PD, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2023-04-08 19:59:34,256:INFO:Checking environment
+2023-04-08 19:59:34,256:INFO:python_version: 3.8.13
+2023-04-08 19:59:34,256:INFO:python_build: ('default', 'Mar 28 2022 06:59:08')
+2023-04-08 19:59:34,256:INFO:machine: AMD64
+2023-04-08 19:59:34,256:INFO:platform: Windows-10-10.0.22621-SP0
+2023-04-08 19:59:34,256:INFO:Memory: svmem(total=16497102848, available=7140524032, percent=56.7, used=9356578816, free=7140524032)
+2023-04-08 19:59:34,256:INFO:Physical Core: 8
+2023-04-08 19:59:34,256:INFO:Logical Core: 16
+2023-04-08 19:59:34,256:INFO:Checking libraries
+2023-04-08 19:59:34,256:INFO:pd==1.4.3
+2023-04-08 19:59:34,256:INFO:numpy==1.19.5
+2023-04-08 19:59:34,256:INFO:sklearn==0.23.2
+2023-04-08 19:59:34,256:INFO:lightgbm==3.3.2
+2023-04-08 19:59:34,257:WARNING:catboost not found
+2023-04-08 19:59:34,389:INFO:xgboost==1.6.1
+2023-04-08 19:59:34,389:INFO:mlflow==1.27.0
+2023-04-08 19:59:34,389:INFO:Checking Exceptions
+2023-04-08 19:59:34,389:INFO:Declaring global variables
+2023-04-08 19:59:34,389:INFO:USI: 256d
+2023-04-08 19:59:34,389:INFO:pycaret_globals: {'fold_groups_param', 'gpu_param', 'experiment__', '_ml_usecase', '_all_metrics', 'logging_param', 'stratify_param', 'data_before_preprocess', 'y', '_internal_pipeline', 'fold_shuffle_param', 'create_model_container', 'pycaret_globals', '_all_models', 'USI', 'X', 'seed', 'iterative_imputation_iters_param', 'display_container', 'y_train', 'imputation_classifier', 'fix_imbalance_method_param', 'y_test', 'n_jobs_param', 'target_param', '_gpu_n_jobs_param', 'fold_groups_param_full', '_available_plots', 'X_test', 'exp_name_log', 'dashboard_logger', 'html_param', 'transform_target_method_param', 'fold_param', '_all_models_internal', 'X_train', 'fold_generator', 'master_model_container', 'imputation_regressor', 'transform_target_param', 'log_plots_param', 'fix_imbalance_param', 'prep_pipe'}
+2023-04-08 19:59:34,390:INFO:Preparing display monitor
+2023-04-08 19:59:34,390:INFO:Preparing display monitor
+2023-04-08 19:59:34,400:INFO:Importing libraries
+2023-04-08 19:59:34,401:INFO:Copying data for preprocessing
+2023-04-08 19:59:34,411:INFO:Declaring preprocessing parameters
+2023-04-08 19:59:34,419:INFO:Creating preprocessing pipeline
+2023-04-08 19:59:34,679:INFO:Preprocessing pipeline created successfully
+2023-04-08 19:59:34,679:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2023-04-08 19:59:34,679:INFO:Creating global containers
+2023-04-08 19:59:34,682:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2023-04-08 20:00:09,563:WARNING:Couldn't import catboost.CatBoostClassifier
+2023-04-08 20:00:09,647:WARNING:Couldn't import catboost.CatBoostClassifier
+2023-04-08 20:00:09,648:INFO:Creating grid variables
+2023-04-08 20:00:09,665:INFO:Logging experiment in MLFlow
+2023-04-08 20:00:10,049:INFO:SubProcess save_model() called ==================================
+2023-04-08 20:00:10,060:INFO:Initializing save_model()
+2023-04-08 20:00:10,061:INFO:save_model(model=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Y',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='...
+                ('fix_perfect', Remove_100(target='Y')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Boruta_Feature_Selection(alpha=0.05, max_iteration=200,
+                                          ml_usecase='classification',
+                                          n_iter_no_change=25, n_jobs=-1,
+                                          random_state=123, subclass='binary',
+                                          target='Y',
+                                          top_features_to_pick=0.9)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough')],
+         verbose=False), model_name=Transformation Pipeline, prep_pipe_=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Y',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='...
+                ('fix_perfect', Remove_100(target='Y')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Boruta_Feature_Selection(alpha=0.05, max_iteration=200,
+                                          ml_usecase='classification',
+                                          n_iter_no_change=25, n_jobs=-1,
+                                          random_state=123, subclass='binary',
+                                          target='Y',
+                                          top_features_to_pick=0.9)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough')],
+         verbose=False), verbose=False, kwargs={})
+2023-04-08 20:00:10,061:INFO:Adding model into prep_pipe
+2023-04-08 20:00:10,061:WARNING:Only Model saved as it was a pipeline.
+2023-04-08 20:00:10,069:INFO:Transformation Pipeline.pkl saved in current working directory
+2023-04-08 20:00:10,073:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Y',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='...
+                ('fix_perfect', Remove_100(target='Y')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Boruta_Feature_Selection(alpha=0.05, max_iteration=200,
+                                          ml_usecase='classification',
+                                          n_iter_no_change=25, n_jobs=-1,
+                                          random_state=123, subclass='binary',
+                                          target='Y',
+                                          top_features_to_pick=0.9)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough')],
+         verbose=False)
+2023-04-08 20:00:10,073:INFO:save_model() successfully completed......................................
+2023-04-08 20:00:10,193:INFO:SubProcess save_model() end ==================================
+2023-04-08 20:00:10,220:INFO:create_model_container: 0
+2023-04-08 20:00:10,221:INFO:master_model_container: 0
+2023-04-08 20:00:10,221:INFO:display_container: 1
+2023-04-08 20:00:10,225:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Y',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='...
+                ('fix_perfect', Remove_100(target='Y')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Boruta_Feature_Selection(alpha=0.05, max_iteration=200,
+                                          ml_usecase='classification',
+                                          n_iter_no_change=25, n_jobs=-1,
+                                          random_state=123, subclass='binary',
+                                          target='Y',
+                                          top_features_to_pick=0.9)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough')],
+         verbose=False)
+2023-04-08 20:00:10,225:INFO:setup() succesfully completed......................................
+2023-04-08 20:00:20,904:INFO:PyCaret Supervised Module
+2023-04-08 20:00:20,904:INFO:ML Usecase: classification
+2023-04-08 20:00:20,904:INFO:version 2.3.10
+2023-04-08 20:00:20,904:INFO:Initializing setup()
+2023-04-08 20:00:20,904:INFO:setup(target=Y, ml_usecase=classification, available_plots={'parameter': 'Hyperparameters', 'auc': 'AUC', 'confusion_matrix': 'Confusion Matrix', 'threshold': 'Threshold', 'pr': 'Precision Recall', 'error': 'Prediction Error', 'class_report': 'Class Report', 'rfe': 'Feature Selection', 'learning': 'Learning Curve', 'manifold': 'Manifold Learning', 'calibration': 'Calibration Curve', 'vc': 'Validation Curve', 'dimension': 'Dimensions', 'feature': 'Feature Importance', 'feature_all': 'Feature Importance (All)', 'boundary': 'Decision Boundary', 'lift': 'Lift Chart', 'gain': 'Gain Chart', 'tree': 'Decision Tree', 'ks': 'KS Statistic Plot'}, train_size=0.7, test_data=None, preprocess=True, imputation_type=simple, iterative_imputation_iters=5, categorical_features=None, categorical_imputation=constant, categorical_iterative_imputer=lightgbm, ordinal_features=None, high_cardinality_features=None, high_cardinality_method=frequency, numeric_features=None, numeric_imputation=mean, numeric_iterative_imputer=lightgbm, date_features=None, ignore_features=None, normalize=False, normalize_method=zscore, transformation=False, transformation_method=yeo-johnson, handle_unknown_categorical=True, unknown_categorical_method=least_frequent, pca=False, pca_method=linear, pca_components=None, ignore_low_variance=False, combine_rare_levels=False, rare_level_threshold=0.1, bin_numeric_features=None, remove_outliers=False, outliers_threshold=0.05, remove_multicollinearity=False, multicollinearity_threshold=0.9, remove_perfect_collinearity=True, create_clusters=False, cluster_iter=20, polynomial_features=False, polynomial_degree=2, trigonometry_features=False, polynomial_threshold=0.1, group_features=None, group_names=None, feature_selection=True, feature_selection_threshold=0.9, feature_selection_method=boruta, feature_interaction=False, feature_ratio=False, interaction_threshold=0.01, fix_imbalance=False, fix_imbalance_method=None, transform_target=False, transform_target_method=box-cox, data_split_shuffle=True, data_split_stratify=False, fold_strategy=stratifiedkfold, fold=10, fold_shuffle=False, fold_groups=None, n_jobs=-1, use_gpu=False, custom_pipeline=None, html=True, session_id=123, log_experiment=True, experiment_name=PD, experiment_custom_tags=None, log_plots=False, log_profile=False, log_data=False, silent=False, verbose=True, profile=False, profile_kwargs=None, display=None)
+2023-04-08 20:00:20,904:INFO:Checking environment
+2023-04-08 20:00:20,904:INFO:python_version: 3.8.13
+2023-04-08 20:00:20,904:INFO:python_build: ('default', 'Mar 28 2022 06:59:08')
+2023-04-08 20:00:20,904:INFO:machine: AMD64
+2023-04-08 20:00:20,904:INFO:platform: Windows-10-10.0.22621-SP0
+2023-04-08 20:00:20,904:INFO:Memory: svmem(total=16497102848, available=7040827392, percent=57.3, used=9456275456, free=7040827392)
+2023-04-08 20:00:20,904:INFO:Physical Core: 8
+2023-04-08 20:00:20,904:INFO:Logical Core: 16
+2023-04-08 20:00:20,905:INFO:Checking libraries
+2023-04-08 20:00:20,905:INFO:pd==1.4.3
+2023-04-08 20:00:20,905:INFO:numpy==1.19.5
+2023-04-08 20:00:20,905:INFO:sklearn==0.23.2
+2023-04-08 20:00:20,905:INFO:lightgbm==3.3.2
+2023-04-08 20:00:20,905:WARNING:catboost not found
+2023-04-08 20:00:20,905:INFO:xgboost==1.6.1
+2023-04-08 20:00:20,905:INFO:mlflow==1.27.0
+2023-04-08 20:00:20,906:INFO:Checking Exceptions
+2023-04-08 20:00:20,906:INFO:Declaring global variables
+2023-04-08 20:00:20,906:INFO:USI: e608
+2023-04-08 20:00:20,906:INFO:pycaret_globals: {'fold_groups_param', 'gpu_param', 'experiment__', '_ml_usecase', '_all_metrics', 'logging_param', 'stratify_param', 'data_before_preprocess', 'y', '_internal_pipeline', 'fold_shuffle_param', 'create_model_container', 'pycaret_globals', '_all_models', 'USI', 'X', 'seed', 'iterative_imputation_iters_param', 'display_container', 'y_train', 'imputation_classifier', 'fix_imbalance_method_param', 'y_test', 'n_jobs_param', 'target_param', '_gpu_n_jobs_param', 'fold_groups_param_full', '_available_plots', 'X_test', 'exp_name_log', 'dashboard_logger', 'html_param', 'transform_target_method_param', 'fold_param', '_all_models_internal', 'X_train', 'fold_generator', 'master_model_container', 'imputation_regressor', 'transform_target_param', 'log_plots_param', 'fix_imbalance_param', 'prep_pipe'}
+2023-04-08 20:00:20,906:INFO:Preparing display monitor
+2023-04-08 20:00:20,906:INFO:Preparing display monitor
+2023-04-08 20:00:20,918:INFO:Importing libraries
+2023-04-08 20:00:20,918:INFO:Copying data for preprocessing
+2023-04-08 20:00:20,928:INFO:Declaring preprocessing parameters
+2023-04-08 20:00:20,935:INFO:Creating preprocessing pipeline
+2023-04-08 20:00:21,136:INFO:Preprocessing pipeline created successfully
+2023-04-08 20:00:21,136:ERROR:(Process Exit): setup has been interupted with user command 'quit'. setup must rerun.
+2023-04-08 20:00:21,136:INFO:Creating global containers
+2023-04-08 20:00:21,136:INFO:Internal pipeline: Pipeline(memory=None, steps=[('empty_step', 'passthrough')], verbose=False)
+2023-04-08 20:00:46,846:WARNING:Couldn't import catboost.CatBoostClassifier
+2023-04-08 20:00:46,937:WARNING:Couldn't import catboost.CatBoostClassifier
+2023-04-08 20:00:46,938:INFO:Creating grid variables
+2023-04-08 20:00:46,952:INFO:Logging experiment in MLFlow
+2023-04-08 20:00:47,120:INFO:SubProcess save_model() called ==================================
+2023-04-08 20:00:47,129:INFO:Initializing save_model()
+2023-04-08 20:00:47,129:INFO:save_model(model=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Y',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='...
+                ('fix_perfect', Remove_100(target='Y')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Boruta_Feature_Selection(alpha=0.05, max_iteration=200,
+                                          ml_usecase='classification',
+                                          n_iter_no_change=25, n_jobs=-1,
+                                          random_state=123, subclass='binary',
+                                          target='Y',
+                                          top_features_to_pick=0.9)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough')],
+         verbose=False), model_name=Transformation Pipeline, prep_pipe_=Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Y',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='...
+                ('fix_perfect', Remove_100(target='Y')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Boruta_Feature_Selection(alpha=0.05, max_iteration=200,
+                                          ml_usecase='classification',
+                                          n_iter_no_change=25, n_jobs=-1,
+                                          random_state=123, subclass='binary',
+                                          target='Y',
+                                          top_features_to_pick=0.9)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough')],
+         verbose=False), verbose=False, kwargs={})
+2023-04-08 20:00:47,130:INFO:Adding model into prep_pipe
+2023-04-08 20:00:47,130:WARNING:Only Model saved as it was a pipeline.
+2023-04-08 20:00:47,137:INFO:Transformation Pipeline.pkl saved in current working directory
+2023-04-08 20:00:47,141:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Y',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='...
+                ('fix_perfect', Remove_100(target='Y')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Boruta_Feature_Selection(alpha=0.05, max_iteration=200,
+                                          ml_usecase='classification',
+                                          n_iter_no_change=25, n_jobs=-1,
+                                          random_state=123, subclass='binary',
+                                          target='Y',
+                                          top_features_to_pick=0.9)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough')],
+         verbose=False)
+2023-04-08 20:00:47,141:INFO:save_model() successfully completed......................................
+2023-04-08 20:00:47,264:INFO:SubProcess save_model() end ==================================
+2023-04-08 20:00:47,295:INFO:create_model_container: 0
+2023-04-08 20:00:47,295:INFO:master_model_container: 0
+2023-04-08 20:00:47,295:INFO:display_container: 1
+2023-04-08 20:00:47,300:INFO:Pipeline(memory=None,
+         steps=[('dtypes',
+                 DataTypes_Auto_infer(categorical_features=[],
+                                      display_types=True, features_todrop=[],
+                                      id_columns=[],
+                                      ml_usecase='classification',
+                                      numerical_features=[], target='Y',
+                                      time_features=[])),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='...
+                ('fix_perfect', Remove_100(target='Y')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select',
+                 Boruta_Feature_Selection(alpha=0.05, max_iteration=200,
+                                          ml_usecase='classification',
+                                          n_iter_no_change=25, n_jobs=-1,
+                                          random_state=123, subclass='binary',
+                                          target='Y',
+                                          top_features_to_pick=0.9)),
+                ('fix_multi', 'passthrough'), ('dfs', 'passthrough'),
+                ('pca', 'passthrough')],
+         verbose=False)
+2023-04-08 20:00:47,300:INFO:setup() succesfully completed......................................
+2023-04-08 20:00:47,497:INFO:Initializing compare_models()
+2023-04-08 20:00:47,498:INFO:compare_models(include=None, fold=15, round=4, cross_validation=True, sort=Accuracy, n_select=1, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, display=None, exclude=None)
+2023-04-08 20:00:47,498:INFO:Checking exceptions
+2023-04-08 20:00:47,499:INFO:Preparing display monitor
+2023-04-08 20:00:47,499:INFO:Preparing display monitor
+2023-04-08 20:00:47,528:INFO:Initializing Logistic Regression
+2023-04-08 20:00:47,528:INFO:Total runtime is 0.0 minutes
+2023-04-08 20:00:47,539:INFO:SubProcess create_model() called ==================================
+2023-04-08 20:00:47,539:INFO:Initializing create_model()
+2023-04-08 20:00:47,540:INFO:create_model(estimator=lr, fold=StratifiedKFold(n_splits=15, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x0000028C312C33A0>, return_train_score=False, kwargs={})
+2023-04-08 20:00:47,540:INFO:Checking exceptions
+2023-04-08 20:00:47,540:INFO:Importing libraries
+2023-04-08 20:00:47,540:INFO:Copying training dataset
+2023-04-08 20:00:47,542:INFO:Defining folds
+2023-04-08 20:00:47,542:INFO:Declaring metric variables
+2023-04-08 20:00:47,551:INFO:Importing untrained model
+2023-04-08 20:00:47,560:INFO:Logistic Regression Imported succesfully
+2023-04-08 20:00:47,576:INFO:Starting cross validation
+2023-04-08 20:00:47,577:INFO:Cross validating with StratifiedKFold(n_splits=15, random_state=None, shuffle=False), n_jobs=-1
+2023-04-08 20:01:00,842:INFO:Calculating mean and std
+2023-04-08 20:01:00,843:INFO:Creating metrics dataframe
+2023-04-08 20:01:00,849:INFO:Uploading results into container
+2023-04-08 20:01:00,850:INFO:Uploading model into container now
+2023-04-08 20:01:00,850:INFO:create_model_container: 1
+2023-04-08 20:01:00,850:INFO:master_model_container: 1
+2023-04-08 20:01:00,850:INFO:display_container: 2
+2023-04-08 20:01:00,850:INFO:LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+                   intercept_scaling=1, l1_ratio=None, max_iter=1000,
+                   multi_class='auto', n_jobs=None, penalty='l2',
+                   random_state=123, solver='lbfgs', tol=0.0001, verbose=0,
+                   warm_start=False)
+2023-04-08 20:01:00,850:INFO:create_model() succesfully completed......................................
+2023-04-08 20:01:00,976:INFO:SubProcess create_model() end ==================================
+2023-04-08 20:01:00,976:INFO:Creating metrics dataframe
+2023-04-08 20:01:00,985:INFO:Initializing K Neighbors Classifier
+2023-04-08 20:01:00,985:INFO:Total runtime is 0.22428876956303914 minutes
+2023-04-08 20:01:00,994:INFO:SubProcess create_model() called ==================================
+2023-04-08 20:01:00,994:INFO:Initializing create_model()
+2023-04-08 20:01:00,994:INFO:create_model(estimator=knn, fold=StratifiedKFold(n_splits=15, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, verbose=False, system=False, metrics=None, experiment_custom_tags=None, add_to_model_list=True, probability_threshold=None, display=<pycaret.internal.Display.Display object at 0x0000028C312C33A0>, return_train_score=False, kwargs={})
+2023-04-08 20:01:00,995:INFO:Checking exceptions
+2023-04-08 20:01:00,995:INFO:Importing libraries
+2023-04-08 20:01:00,995:INFO:Copying training dataset
+2023-04-08 20:01:00,996:INFO:Defining folds
+2023-04-08 20:01:00,997:INFO:Declaring metric variables
+2023-04-08 20:01:01,005:INFO:Importing untrained model
+2023-04-08 20:01:01,012:INFO:K Neighbors Classifier Imported succesfully
+2023-04-08 20:01:01,029:INFO:Starting cross validation
+2023-04-08 20:01:01,029:INFO:Cross validating with StratifiedKFold(n_splits=15, random_state=None, shuffle=False), n_jobs=-1
