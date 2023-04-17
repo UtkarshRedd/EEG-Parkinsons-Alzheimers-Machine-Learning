@@ -1,3 +1,3 @@
-# Parkinsons-EEG-DeepLearning
+# EEG-Alzhimers-Machine-Learning
 
-This project is in continuation with the paper titled: "Fractal Dimensions and Machine Learning for the Detection of Parkinson's Disease in Resting-State EEG"
+This project employs Singular Value Decomposition Entropy and Machine Learning techniques for the Detection of Alzhimer's Disease and Frontotemporal Dementia from EEG data.
